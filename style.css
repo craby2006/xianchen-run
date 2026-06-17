@@ -14,15 +14,6 @@
   font-family: 'Share Tech Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden; /* 彻底禁止页面滚动 */
-    overscroll-behavior: none; /* 防止移动端回弹滚动效果 */
-}
-
 /* Regular UI text styles (With robust system-native sans-serif fallback) */
 body {
   font-family: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
