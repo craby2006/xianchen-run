@@ -1,0 +1,14 @@
+{
+  "name": "xianchen-run",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^8.0.16"
+  }
+}
