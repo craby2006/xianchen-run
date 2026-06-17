@@ -25,7 +25,7 @@ export class Player {
             this.y = this.groundY - this.height + this.yOffset;
             console.log(`主角素材加载成功。尺寸: ${this.width.toFixed(1)}x${this.height}`);
         };
-        this.image.src = 'assets/player.png';
+        this.image.src = '/assets/player.png';
 
         // 初始化尺寸与动态缩放的物理引擎变量
         this.updateDimensionsAndPhysics();

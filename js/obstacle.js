@@ -51,7 +51,7 @@ export class Obstacle {
                 }
             }
         };
-        this.image.src = 'assets/obstacle.png';
+        this.image.src = '/assets/obstacle.png';
 
         // 备用状态：图片未加载完成时绘制一个复古红色的色块
         this.fallbackColor = '#b91c1c'; // 对应 Tailwind 中的 red-700
